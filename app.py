@@ -24,8 +24,8 @@ def get_info():
         'current_day': current_day,
         'utc_time': time_with_offset.strftime('%Y-%m-%dT%H:%M:%SZ'),
         'track': track,
-        'github_file_url': 'https://github.com/username/repo/blob/main/file_name.ext',  # Replace with your file URL
-        'github_repo_url': 'https://github.com/username/repo',  # Replace with your repo URL
+        'github_file_url': 'https://github.com/mwiks-dev/HNGx1/blob/main/app.py',  # Replace with your file URL
+        'github_repo_url': 'https://github.com/mwiks-dev/HNGx1',  # Replace with your repo URL
         'status_code': 200
     }
 
