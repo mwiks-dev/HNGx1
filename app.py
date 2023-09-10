@@ -22,7 +22,7 @@ def get_info():
     response_data = {
         'slack_name': slack_name,
         'current_day': current_day,
-        'utc_time': time_with_offset.strftime('%Y-%m-%d %H:%M:%S UTC'),
+        'utc_time': (datetime.datetime.utcnow() + datetime.timedelta(minutes=2)).strftime('%Y-%m-%dT%H:%M:%SZ'),
         'track': track,
         'github_file_url': 'https://github.com/mwiks-dev/HNGx1/blob/main/app.py',  # Replace with your file URL
         'github_repo_url': 'https://github.com/mwiks-dev/HNGx1',  # Replace with your repo URL
